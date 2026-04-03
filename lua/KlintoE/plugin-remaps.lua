@@ -77,10 +77,10 @@ wk.add({
 -- Workspace commands: new tabs, terminals, etc
 wk.add({
 	{ "<leader>w", group = "Workspace settings" },
-	{ "<leader>wp", group = "Panel" },
+	{ "<leader>ww", group = "Panel" },
 	{ "<leader>wd", group = "Diagnostics" },
-	{ "<leader>wph", ":split<cr>", desc = "New panel horizontal" },
-	{ "<leader>wpv", ":vsplit<cr>", desc = "New panel vertical" },
+	{ "<leader>wwh", ":split<cr>", desc = "New panel horizontal" },
+	{ "<leader>wwv", ":vsplit<cr>", desc = "New panel vertical" },
 	{
 		"<leader>wdl",
 		function()
