@@ -58,7 +58,6 @@ return {
 				"eslint_d",
 				"golangci-lint",
 				"jsonlint",
-				"luacheck",
 				"pylint",
 				"stylelint",
 				"yamllint",
@@ -84,6 +83,10 @@ return {
 				"netcoredbg",
 				"php-debug-adapter",
 			},
+
+			auto_update = true,
+			run_on_start = true,
+			start_delay = 3000,
 		},
 	},
 
